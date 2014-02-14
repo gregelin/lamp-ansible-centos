@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>XCCDF Test Result</title>
+    <meta name="generator" content="" />
+    <meta name="Content-Type" content="text/html;charset=utf-8" />
+    <style type="text/css" media="all">
+    html, body { background-color: black; font-family:sans-serif; margin:0; padding:0; }
+    abbr { text-transform:none; border:none; font-variant:normal; }
+    div.score-outer { height: .8em; width:100%; min-width:100px; background-color: red; }
+    div.score-inner { height: 100%; background-color: green; }
+    .score-max, .score-val, .score-percent { text-align:right; }
+    .score-percent { font-weight: bold; }
+    th, td { padding-left:.5em; padding-right:.5em; }
+    .rule-selected, .result-pass strong, .result-fixed strong { color:green; }
+    .rule-inactive, .unknown, .result-notselected strong, .result-notchecked strong, .result-notapplicable strong, .result-informational strong, .result-unknown strong { color:#555; }
+    .rule-notselected, .result-error strong, .result-fail strong { color:red; }
+    table { border-collapse: collapse; border: 1px black solid; width:100%; }
+    table th, thead tr { background-color:black; color:white; }
+    table td { border-right: 1px black solid; }
+    table td.result, table td.link { text-align:center; }
+    table td.num { text-align:right; }
+    div#rule-results-summary { margin-bottom: 1em; }
+    table tr.result-legend td { width: 10%; }
+    div#content p { text-align:justify; }
+    div.result-detail { border: 1px solid black; margin: 2em 0; padding: 0 1em; }
+    div#content h2 { border-bottom:2px dashed; margin-top:1em; margin-bottom:0.5em; text-align:center; }
+    div#content h2#summary { margin-top:0; }
+    h1 { margin:1em 0; }
+    div.raw table, div.raw table td { border:none; width:auto; padding:0; }
+    div.raw table { margin-left: 2em; }
+    div.raw table td { padding: .1em .7em; }
+    table tr { border-bottom: 1px dotted #000; }
+    dir.raw table tr { border-bottom: 0 !important; }
+    pre.code { background: #ccc; padding:.2em; }
+    ul.toc-struct li { list-style-type: none; }
+    div.xccdf-rule { margin-left: 10%; }
+    div#footer, p.remark, .link { font-size:.8em; }
+    thead tr td { font-weight:bold; text-align:center; }
+    .hidden { display:none; }
+    td.score-bar { text-align:center; }
+    td.score-bar span.media { width:100%; min-width:7em; height:.8em; display:block; margin:0; padding:0; }
+    .oval-results { font-size:.8em; overflow:auto; }
+    div#guide-top-table table { width: 100%; }
+    td#common-info { min-width: 25.0em; border-right: 1px solid #000; }
+    td#versions-revisions { width: 25.0em; }
+  </style>
+    <style type="text/css" media="screen">
+    div#content, div#header, div#footer { margin-left:1em; margin-right:1em; }
+    div#content { background-color: white; padding:2em; }
+    div#footer, div#header { color:white; text-align:center; }
+    a, a:visited { color:blue; text-decoration:underline; }
+    div#content p.link { text-align:right; font-size:.8em; }
+    div#footer a { color:white; }
+    div.xccdf-group, div.xccdf-rule { border-left: 3px solid white; padding-left:.3em; }
+    div.xccdf-group:target, div.xccdf-rule:target { border-left-color:#ccc; }
+    .toc-struct li:target { background:#ddd; }
+    abbr { border-bottom: 1px black dotted; }
+    abbr.date { border-bottom:none; }
+    pre.code { overflow:auto; }
+    table tbody tr:hover { background: #ccc; }
+    div.raw table tbody tr:hover { background: transparent !important; }
+  </style>
+    <style type="text/css" media="print">
+    @page { margin:3cm; }
+    html, body { background-color:white; font-family:serif; }
+    .link { display:none; }
+    a, a:visited { color:black; text-decoration:none; }
+    div#header, div#footer { text-align:center; }
+    div#header { padding-top:36%; }
+    h1 { vertical-align:center; }
+    h2 { page-break-before:always; }
+    h3, h4, h5  { page-break-after:avoid; }
+    pre.code { background: #ccc; }
+    div#footer { margin-top:auto; }
+    .toc-struct { page-break-after:always; }
+  </style>
+  </head>
+  <body>
+    <div id="xccdf_org.open-scap_testresult_test">
+      <div id="header">
+        <h1>XCCDF Test Result</h1>
+      </div>
+      <div id="content">
+        <div id="intro">
+          <h2>Introduction</h2>
+          <div>
+            <h3>Test Result</h3>
+            <div id="test-result-summary">
+              <table>
+                <thead>
+                  <tr>
+                    <td>Result ID</td>
+                    <td>Profile</td>
+                    <td>Start time</td>
+                    <td>End time</td>
+                    <td>Benchmark</td>
+                    <td>Benchmark version</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center">xccdf_org.open-scap_testresult_test</td>
+                    <td align="center">test</td>
+                    <td align="center">
+                      <abbr title="2014-02-14T10:04:21" class="date">2014-02-14 10:04</abbr>
+                    </td>
+                    <td align="center">
+                      <abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr>
+                    </td>
+                    <td align="center">
+                      <span>embedded</span>
+                    </td>
+                    <td align="center">0.9</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <h3>Target info</h3>
+            <div class="raw">
+              <table>
+                <tbody>
+                  <tr>
+                    <td valign="top">
+                      <h4>Targets</h4>
+                      <ul class="itemizedlist">
+                        <li>inabox-lamp-ansible-centos</li>
+                      </ul>
+                    </td>
+                    <td valign="top">
+                      <h4>Addresses</h4>
+                      <ul class="itemizedlist">
+                        <li>127.0.0.1</li>
+                        <li>10.0.2.15</li>
+                        <li>192.168.56.101</li>
+                        <li>0:0:0:0:0:0:0:1</li>
+                        <li>fe80:0:0:0:a00:27ff:fef7:3d84</li>
+                        <li>fe80:0:0:0:a00:27ff:fe87:1852</li>
+                      </ul>
+                    </td>
+                    <td></td>
+                    <td valign="top">
+                      <h4>Platforms</h4>
+                      <ul class="itemizedlist">
+                        <li>cpe:/o:redhat:enterprise_linux:6</li>
+                        <li>cpe:/o:redhat:enterprise_linux:6::client</li>
+                      </ul>
+                    </td>
+                    <td valign="top"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <h3>Score</h3>
+            <div>
+              <table>
+                <thead>
+                  <tr>
+                    <td>system</td>
+                    <td>score</td>
+                    <td>max</td>
+                    <td>%</td>
+                    <td>bar</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr id="score-urn-xccdf-scoring-default">
+                    <td class="score-sys">urn:xccdf:scoring:default</td>
+                    <td class="score-val">36.11</td>
+                    <td class="score-max">100.00</td>
+                    <td class="score-percent">36.11%</td>
+                    <td class="score-bar">
+                      <span class="media">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:ovalres="http://oval.mitre.org/XMLSchema/oval-results-5" xmlns:sceres="http://open-scap.org/page/SCE_result_file" width="100%" height="100%" version="1.1" baseProfile="full">
+                          <rect width="100%" height="100%" fill="red"></rect>
+                          <rect height="100%" width="36.11%" fill="green"></rect>
+                          <rect height="100%" x="36.11%" width="2" fill="black"></rect>
+                        </svg>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="results-overview">
+          <h2>Results overview</h2>
+          <div id="rule-results-summary">
+            <h4>Rule Results Summary</h4>
+            <table>
+              <thead>
+                <tr>
+                  <td>pass</td>
+                  <td>fixed</td>
+                  <td>fail</td>
+                  <td>error</td>
+                  <td>not selected</td>
+                  <td>not checked</td>
+                  <td>not applicable</td>
+                  <td>informational</td>
+                  <td>unknown</td>
+                  <td>total</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="result-legend">
+                  <td align="center" class="result-pass">
+                    <strong class="strong">6</strong>
+                  </td>
+                  <td align="center" class="result-fixed">
+                    <strong class="strong">0</strong>
+                  </td>
+                  <td align="center" class="result-fail">
+                    <strong class="strong">5</strong>
+                  </td>
+                  <td align="center" class="result-error">
+                    <strong class="strong">0</strong>
+                  </td>
+                  <td align="center" class="result-notselected">
+                    <strong class="strong">379</strong>
+                  </td>
+                  <td align="center" class="result-notchecked">
+                    <strong class="strong">0</strong>
+                  </td>
+                  <td align="center" class="result-notapplicable">
+                    <strong class="strong">0</strong>
+                  </td>
+                  <td align="center" class="result-informational">
+                    <strong class="strong">0</strong>
+                  </td>
+                  <td align="center" class="result-unknown">
+                    <strong class="strong">0</strong>
+                  </td>
+                  <td align="center">
+                    <strong class="strong">390</strong>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h4 class="hidden">Rule results summary</h4>
+            <table>
+              <thead>
+                <tr>
+                  <td>Title</td>
+                  <td>Result</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="result-fail">
+                  <td class="id">
+                    <a href="#ruleresult-idp24470928">Set Daemon Umask</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">fail</strong>
+                  </td>
+                </tr>
+                <tr class="result-fail">
+                  <td class="id">
+                    <a href="#ruleresult-idp24606864">Ensure the Default Bash Umask is Set Correctly</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">fail</strong>
+                  </td>
+                </tr>
+                <tr class="result-fail">
+                  <td class="id">
+                    <a href="#ruleresult-idp24612080">Ensure the Default C Shell Umask is Set Correctly</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">fail</strong>
+                  </td>
+                </tr>
+                <tr class="result-fail">
+                  <td class="id">
+                    <a href="#ruleresult-idp24617200">Ensure the Default Umask is Set Correctly in /etc/profile</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">fail</strong>
+                  </td>
+                </tr>
+                <tr class="result-pass">
+                  <td class="id">
+                    <a href="#ruleresult-idp24622320">Ensure the Default Umask is Set Correctly in login.defs</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">pass</strong>
+                  </td>
+                </tr>
+                <tr class="result-pass">
+                  <td class="id">
+                    <a href="#ruleresult-idp24817440">Configure auditd Number of Logs Retained</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">pass</strong>
+                  </td>
+                </tr>
+                <tr class="result-pass">
+                  <td class="id">
+                    <a href="#ruleresult-idp24822016">Configure auditd Max Log File Size</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">pass</strong>
+                  </td>
+                </tr>
+                <tr class="result-pass">
+                  <td class="id">
+                    <a href="#ruleresult-idp24826432">Configure auditd max_log_file_action Upon Reaching Maximum Log Size</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">pass</strong>
+                  </td>
+                </tr>
+                <tr class="result-pass">
+                  <td class="id">
+                    <a href="#ruleresult-idp24831584">Configure auditd space_left Action on Low Disk Space</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">pass</strong>
+                  </td>
+                </tr>
+                <tr class="result-fail">
+                  <td class="id">
+                    <a href="#ruleresult-idp24836736">Configure auditd admin_space_left Action on Low Disk Space</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">fail</strong>
+                  </td>
+                </tr>
+                <tr class="result-pass">
+                  <td class="id">
+                    <a href="#ruleresult-idp24841904">Configure auditd mail_acct Action on Low Disk Space</a>
+                  </td>
+                  <td class="result">
+                    <strong class="strong">pass</strong>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div id="results-details">
+          <h2>Results details</h2>
+          <div class="result-detail" id="ruleresult-idp24470928">
+            <h3>Result for Set Daemon Umask</h3>
+            <p class="result-fail">Result: <strong class="strong">fail</strong></p>
+            <p>Rule ID: <strong class="strong">umask_for_daemons</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">low</strong></p>
+            <p>The file <code>/etc/init.d/functions</code> includes initialization
+parameters for most or all daemons started at boot time.  The default umask of
+022 prevents creation of group- or world-writable files.  To set the default
+umask for daemons, edit the following line, inserting 022 or 027 for
+<em>UMASK</em> appropriately:
+<pre class="code"><code>umask <em>UMASK</em></code></pre>
+Setting the umask to too restrictive a setting can cause serious errors at
+runtime.  Many daemons on the system already individually restrict themselves to
+a umask of 077 in their own init scripts.
+</p>
+            <p>The umask influences the permissions assigned to files created by a
+process at run time.  An unnecessarily permissive umask could result in files
+being created with insecure permissions.</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-27031-4</span>
+              </li>
+            </ul>
+            <div class="xccdf-fix">
+              <h4 class="short">Remediation script</h4>
+              <pre class="code">
+                <code>var_umask_for_daemons="<abbr title="value: var_umask_for_daemons (daemon umask)">027</abbr>"
+grep -q ^umask /etc/init.d/functions &amp;&amp; \
+  sed -i "s/umask.*/umask $var_umask_for_daemons/g" /etc/init.d/functions
+if ! [ $? -eq 0 ]; then
+    echo "umask $var_umask_for_daemons" &gt;&gt; /etc/init.d/functions
+fi
+</code>
+              </pre>
+            </div>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24606864">
+            <h3>Result for Ensure the Default Bash Umask is Set Correctly</h3>
+            <p class="result-fail">Result: <strong class="strong">fail</strong></p>
+            <p>Rule ID: <strong class="strong">user_umask_bashrc</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">low</strong></p>
+            <p>
+To ensure the default umask for users of the Bash shell is set properly,
+add or correct the <code>umask</code> setting in <code>/etc/bashrc</code> to read
+as follows:
+<pre class="code"><code>umask 077</code></pre></p>
+            <p>The umask value influences the permissions assigned to files when they are created.
+A misconfigured umask value could result in files with excessive permissions that can be read or
+written to by unauthorized users.</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-26917-5</span>
+              </li>
+            </ul>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24612080">
+            <h3>Result for Ensure the Default C Shell Umask is Set Correctly</h3>
+            <p class="result-fail">Result: <strong class="strong">fail</strong></p>
+            <p>Rule ID: <strong class="strong">user_umask_cshrc</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">low</strong></p>
+            <p>
+To ensure the default umask for users of the C shell is set properly,
+add or correct the <code>umask</code> setting in <code>/etc/csh.cshrc</code> to read as follows:
+<pre class="code"><code>umask 077</code></pre></p>
+            <p>The umask value influences the permissions assigned to files when they are created.
+A misconfigured umask value could result in files with excessive permissions that can be read or
+written to by unauthorized users.</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-27034-8</span>
+              </li>
+            </ul>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24617200">
+            <h3>Result for Ensure the Default Umask is Set Correctly in /etc/profile</h3>
+            <p class="result-fail">Result: <strong class="strong">fail</strong></p>
+            <p>Rule ID: <strong class="strong">user_umask_profile</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">low</strong></p>
+            <p>
+To ensure the default umask controlled by <code>/etc/profile</code> is set properly,
+add or correct the <code>umask</code> setting in <code>/etc/profile</code> to read as follows:
+<pre class="code"><code>umask 077</code></pre></p>
+            <p>The umask value influences the permissions assigned to files when they are created.
+A misconfigured umask value could result in files with excessive permissions that can be read or
+written to by unauthorized users.</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-26669-2</span>
+              </li>
+            </ul>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24622320">
+            <h3>Result for Ensure the Default Umask is Set Correctly in login.defs</h3>
+            <p class="result-pass">Result: <strong class="strong">pass</strong></p>
+            <p>Rule ID: <strong class="strong">user_umask_logindefs</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">low</strong></p>
+            <p>
+To ensure the default umask controlled by <code>/etc/login.defs</code> is set properly,
+add or correct the <code>UMASK</code> setting in <code>/etc/login.defs</code> to read as follows:
+<pre class="code"><code>UMASK 077</code></pre></p>
+            <p>The umask value influences the permissions assigned to files when they are created.
+A misconfigured umask value could result in files with excessive permissions that can be read and 
+written to by unauthorized users.</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-26371-5</span>
+              </li>
+            </ul>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24817440">
+            <h3>Result for Configure auditd Number of Logs Retained</h3>
+            <p class="result-pass">Result: <strong class="strong">pass</strong></p>
+            <p>Rule ID: <strong class="strong">configure_auditd_num_logs</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">medium</strong></p>
+            <p>Determine how many log files
+<code>auditd</code> should retain when it rotates logs.
+Edit the file <code>/etc/audit/auditd.conf</code>. Add or modify the following
+line, substituting <em>NUMLOGS</em> with the correct value:
+<pre class="code"><code>num_logs = <em>NUMLOGS</em></code></pre>
+Set the value to 5 for general-purpose systems. 
+Note that values less than 2 result in no log rotation.</p>
+            <p>The total storage for audit log files must be large enough to retain
+log information over the period required. This is a function of the maximum log
+file size and the number of logs retained.</p>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24822016">
+            <h3>Result for Configure auditd Max Log File Size</h3>
+            <p class="result-pass">Result: <strong class="strong">pass</strong></p>
+            <p>Rule ID: <strong class="strong">configure_auditd_max_log_file</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">medium</strong></p>
+            <p>Determine the amount of audit data (in megabytes)
+which should be retained in each log file. Edit the file
+<code>/etc/audit/auditd.conf</code>. Add or modify the following line, substituting
+the correct value for <em>STOREMB</em>:
+<pre class="code"><code>max_log_file = <em>STOREMB</em></code></pre>
+Set the value to <code>6</code> (MB) or higher for general-purpose systems.
+Larger values, of course,
+support retention of even more audit data.</p>
+            <p>The total storage for audit log files must be large enough to retain
+log information over the period required. This is a function of the maximum
+log file size and the number of logs retained.</p>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24826432">
+            <h3>Result for Configure auditd max_log_file_action Upon Reaching Maximum Log Size</h3>
+            <p class="result-pass">Result: <strong class="strong">pass</strong></p>
+            <p>Rule ID: <strong class="strong">configure_auditd_max_log_file_action</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">medium</strong></p>
+            <p> The default action to take when the logs reach their maximum size
+is to rotate the log files, discarding the oldest one. To configure the action taken
+by <code>auditd</code>, add or correct the line in <code>/etc/audit/auditd.conf</code>:
+<pre class="code"><code>max_log_file_action = <em>ACTION</em></code></pre>
+Possible values for <em>ACTION</em> are described in the <code>auditd.conf</code> man
+page. These include:
+</p>
+            <ul class="itemizedlist">
+              <li>
+                <p>
+                  <code>ignore</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>syslog</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>suspend</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>rotate</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>keep_logs</code>
+                </p>
+              </li>
+            </ul>
+            <p>
+Set the <code><em>ACTION</em></code> to <code>rotate</code> to ensure log rotation
+occurs.  This is the default.  The setting is case-insensitive.
+</p>
+            <p>Automatically rotating logs (by setting this to <code>rotate</code>)
+minimizes the chances of the system unexpectedly running out of disk space by
+being overwhelmed with log data. However, for systems that must never discard
+log data, or which use external processes to transfer it and reclaim space,
+<code>keep_logs</code> can be employed.</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-27237-7</span>
+              </li>
+            </ul>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24831584">
+            <h3>Result for Configure auditd space_left Action on Low Disk Space</h3>
+            <p class="result-pass">Result: <strong class="strong">pass</strong></p>
+            <p>Rule ID: <strong class="strong">auditd_data_retention_space_left_action</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">medium</strong></p>
+            <p>The <code>auditd</code> service can be configured to take an action
+when disk space <em>starts</em> to run low. 
+Edit the file <code>/etc/audit/auditd.conf</code>. Modify the following line,
+substituting <em>ACTION</em> appropriately:
+<pre class="code"><code>space_left_action = <em>ACTION</em></code></pre>
+Possible values for <em>ACTION</em> are described in the <code>auditd.conf</code> man page.
+These include:
+</p>
+            <ul class="itemizedlist">
+              <li>
+                <p>
+                  <code>ignore</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>syslog</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>email</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>exec</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>suspend</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>single</code>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <code>halt</code>
+                </p>
+              </li>
+            </ul>
+            <p>
+Set this to <code>email</code> (instead of the default,
+which is <code>suspend</code>) as it is more likely to get prompt attention. Acceptable values
+also include <code>suspend</code>, <code>single</code>, and <code>halt</code>.
+</p>
+            <p>Notifying administrators of an impending disk space problem may
+allow them to take corrective action prior to any disruption.</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-27238-5</span>
+              </li>
+            </ul>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24836736">
+            <h3>Result for Configure auditd admin_space_left Action on Low Disk Space</h3>
+            <p class="result-fail">Result: <strong class="strong">fail</strong></p>
+            <p>Rule ID: <strong class="strong">auditd_data_retention_admin_space_left_action</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">medium</strong></p>
+            <p>The <code>auditd</code> service can be configured to take an action
+when disk space is running low but prior to running out of space completely. 
+Edit the file <code>/etc/audit/auditd.conf</code>. Add or modify the following line,
+substituting <em>ACTION</em> appropriately:
+<pre class="code"><code>admin_space_left_action = <em>ACTION</em></code></pre>
+Set this value to <code>single</code> to cause the system to switch to single user
+mode for corrective action. Acceptable values also include <code>suspend</code> and
+<code>halt</code>. For certain systems, the need for availability
+outweighs the need to log all actions, and a different setting should be
+determined. Details regarding all possible values for <em>ACTION</em> are described in the
+<code>auditd.conf</code> man page.
+</p>
+            <p>Administrators should be made aware of an inability to record
+audit records. If a separate partition or logical volume of adequate size
+is used, running low on space for audit records should never occur.
+</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-27239-3</span>
+              </li>
+            </ul>
+            <div class="xccdf-fix">
+              <h4 class="short">Remediation script</h4>
+              <pre class="code">
+                <code>var_auditd_admin_space_left_action="<abbr title="value: var_auditd_admin_space_left_action (Action for auditd to take when disk space just starts to run low)">single</abbr>"
+grep -q ^admin_space_left_action /etc/audit/auditd.conf &amp;&amp; \
+  sed -i "s/admin_space_left_action.*/admin_space_left_action = $var_auditd_space_left_action/g" /etc/audit/auditd.conf
+if ! [ $? -eq 0 ]; then
+    echo "admin_space_left_action = $var_auditd_space_left_action" &gt;&gt; /etc/audit/auditd.conf
+fi
+</code>
+              </pre>
+            </div>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+          <div class="result-detail" id="ruleresult-idp24841904">
+            <h3>Result for Configure auditd mail_acct Action on Low Disk Space</h3>
+            <p class="result-pass">Result: <strong class="strong">pass</strong></p>
+            <p>Rule ID: <strong class="strong">auditd_data_retention_action_mail_acct</strong></p>
+            <p>Time: <strong class="strong"><abbr title="2014-02-14T10:04:22" class="date">2014-02-14 10:04</abbr></strong></p>
+            <p>Severity: <strong class="strong">medium</strong></p>
+            <p>The <code>auditd</code> service can be configured to send email to
+a designated account in certain situations. Add or correct the following line
+in <code>/etc/audit/auditd.conf</code> to ensure that administrators are notified
+via email for those situations:
+<pre class="code"><code>action_mail_acct = root</code></pre></p>
+            <p>Email sent to the root account is typically aliased to the
+administrators of the system, who can take appropriate action.</p>
+            <h4>Security identifiers</h4>
+            <ul class="itemizedlist">
+              <li>
+                <span>CCE-27241-9</span>
+              </li>
+            </ul>
+            <p class="link">
+              <a href="#results-overview">results overview</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <p> Generated by <a href="http://open-scap.org">OpenSCAP</a>
+      (0.9.12)
+     on <abbr title="2014-02-14T10:04:23Z" class="date">2014-02-14 10:04</abbr>.</p>
+      </div>
+    </div>
+  </body>
+</html>
