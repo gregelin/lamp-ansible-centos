@@ -17716,7 +17716,7 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
       </check>
     </Rule>
   </Group>
-  <TestResult id="xccdf_org.open-scap_testresult_test" start-time="2014-02-14T10:04:21" end-time="2014-02-14T10:04:22">
+  <TestResult id="xccdf_org.open-scap_testresult_test" start-time="2014-02-14T10:30:59" end-time="2014-02-14T10:31:01">
     <benchmark href="/usr/share/xml/scap/ssg/content/ssg-rhel6-xccdf.xml"/>
     <title>OSCAP Scan Result</title>
     <identity authenticated="false" privileged="false">vagrant</identity>
@@ -17727,271 +17727,271 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
     <target-address>192.168.56.101</target-address>
     <target-address>0:0:0:0:0:0:0:1</target-address>
     <target-address>fe80:0:0:0:a00:27ff:fef7:3d84</target-address>
-    <target-address>fe80:0:0:0:a00:27ff:fe87:1852</target-address>
+    <target-address>fe80:0:0:0:a00:27ff:fe27:4715</target-address>
     <target-facts>
       <fact name="urn:xccdf:fact:scanner:name" type="string">OpenSCAP</fact>
       <fact name="urn:xccdf:fact:scanner:version" type="string">0.9.12</fact>
       <fact name="urn:xccdf:fact:ethernet:MAC" type="string">00:00:00:00:00:00</fact>
       <fact name="urn:xccdf:fact:ethernet:MAC" type="string">08:00:27:F7:3D:84</fact>
-      <fact name="urn:xccdf:fact:ethernet:MAC" type="string">08:00:27:87:18:52</fact>
+      <fact name="urn:xccdf:fact:ethernet:MAC" type="string">08:00:27:27:47:15</fact>
       <fact name="urn:xccdf:fact:ethernet:MAC" type="string">00:00:00:00:00:00</fact>
       <fact name="urn:xccdf:fact:ethernet:MAC" type="string">08:00:27:F7:3D:84</fact>
-      <fact name="urn:xccdf:fact:ethernet:MAC" type="string">08:00:27:87:18:52</fact>
+      <fact name="urn:xccdf:fact:ethernet:MAC" type="string">08:00:27:27:47:15</fact>
     </target-facts>
-    <rule-result idref="partition_for_tmp" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="partition_for_tmp" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26435-8</ident>
     </rule-result>
-    <rule-result idref="partition_for_var" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="partition_for_var" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26639-5</ident>
     </rule-result>
-    <rule-result idref="partition_for_var_log" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="partition_for_var_log" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26215-4</ident>
     </rule-result>
-    <rule-result idref="partition_for_var_log_audit" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="partition_for_var_log_audit" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26436-6</ident>
     </rule-result>
-    <rule-result idref="partition_for_home" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="partition_for_home" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26557-9</ident>
     </rule-result>
-    <rule-result idref="encrypt_partitions" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="encrypt_partitions" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="ensure_redhat_gpgkey_installed" time="2014-02-14T10:04:21" severity="high" weight="1.000000">
+    <rule-result idref="ensure_redhat_gpgkey_installed" time="2014-02-14T10:30:59" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26506-6</ident>
     </rule-result>
-    <rule-result idref="ensure_gpgcheck_globally_activated" time="2014-02-14T10:04:21" severity="high" weight="1.000000">
+    <rule-result idref="ensure_gpgcheck_globally_activated" time="2014-02-14T10:30:59" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26709-6</ident>
     </rule-result>
-    <rule-result idref="ensure_gpgcheck_never_disabled" time="2014-02-14T10:04:21" severity="high" weight="1.000000">
+    <rule-result idref="ensure_gpgcheck_never_disabled" time="2014-02-14T10:30:59" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26647-8</ident>
     </rule-result>
-    <rule-result idref="security_patches_up_to_date" time="2014-02-14T10:04:21" severity="high" weight="1.000000">
+    <rule-result idref="security_patches_up_to_date" time="2014-02-14T10:30:59" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="package_aide_installed" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="package_aide_installed" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27024-9</ident>
     </rule-result>
-    <rule-result idref="disable_prelink" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="disable_prelink" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27221-1</ident>
     </rule-result>
-    <rule-result idref="aide_build_database" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="aide_build_database" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="aide_periodic_cron_checking" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="aide_periodic_cron_checking" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27222-9</ident>
     </rule-result>
-    <rule-result idref="rpm_verify_permissions" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="rpm_verify_permissions" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26731-0</ident>
     </rule-result>
-    <rule-result idref="rpm_verify_hashes" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="rpm_verify_hashes" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27223-7</ident>
     </rule-result>
-    <rule-result idref="install_hids" time="2014-02-14T10:04:21" severity="high" weight="1.000000">
+    <rule-result idref="install_hids" time="2014-02-14T10:30:59" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="install_antivirus" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="install_antivirus" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="mountopt_nodev_on_nonroot_partitions" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mountopt_nodev_on_nonroot_partitions" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27045-4</ident>
     </rule-result>
-    <rule-result idref="mountopt_nodev_on_removable_partitions" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mountopt_nodev_on_removable_partitions" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26860-7</ident>
     </rule-result>
-    <rule-result idref="mountopt_noexec_on_removable_partitions" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mountopt_noexec_on_removable_partitions" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27196-5</ident>
     </rule-result>
-    <rule-result idref="mountopt_nosuid_on_removable_partitions" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mountopt_nosuid_on_removable_partitions" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27056-1</ident>
     </rule-result>
-    <rule-result idref="mount_option_tmp_nodev" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mount_option_tmp_nodev" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26499-4</ident>
     </rule-result>
-    <rule-result idref="mount_option_tmp_noexec" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mount_option_tmp_noexec" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26720-3</ident>
     </rule-result>
-    <rule-result idref="mount_option_tmp_nosuid" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mount_option_tmp_nosuid" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26762-5</ident>
     </rule-result>
-    <rule-result idref="mount_option_dev_shm_nodev" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mount_option_dev_shm_nodev" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26778-1</ident>
     </rule-result>
-    <rule-result idref="mount_option_dev_shm_noexec" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mount_option_dev_shm_noexec" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26622-1</ident>
     </rule-result>
-    <rule-result idref="mount_option_dev_shm_nosuid" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mount_option_dev_shm_nosuid" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26486-1</ident>
     </rule-result>
-    <rule-result idref="mount_option_var_tmp_bind_var" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="mount_option_var_tmp_bind_var" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26582-7</ident>
     </rule-result>
-    <rule-result idref="kernel_module_usb-storage_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_usb-storage_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27016-5</ident>
     </rule-result>
-    <rule-result idref="bootloader_nousb_argument" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="bootloader_nousb_argument" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27011-6</ident>
     </rule-result>
-    <rule-result idref="bios_disable_usb_boot" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="bios_disable_usb_boot" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="bios_assign_password" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="bios_assign_password" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="service_autofs_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="service_autofs_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26976-1</ident>
     </rule-result>
-    <rule-result idref="gconf_gnome_disable_automount" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="gconf_gnome_disable_automount" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27035-5</ident>
     </rule-result>
-    <rule-result idref="kernel_module_cramfs_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_cramfs_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26340-0</ident>
     </rule-result>
-    <rule-result idref="kernel_module_freevxfs_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_freevxfs_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26544-7</ident>
     </rule-result>
-    <rule-result idref="kernel_module_jffs2_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_jffs2_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26670-0</ident>
     </rule-result>
-    <rule-result idref="kernel_module_hfs_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_hfs_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26800-3</ident>
     </rule-result>
-    <rule-result idref="kernel_module_hfsplus_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_hfsplus_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26361-6</ident>
     </rule-result>
-    <rule-result idref="kernel_module_squashfs_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_squashfs_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26404-4</ident>
     </rule-result>
-    <rule-result idref="kernel_module_udf_disabled" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_udf_disabled" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26677-5</ident>
     </rule-result>
-    <rule-result idref="disable_gnome_thumbnailers" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="disable_gnome_thumbnailers" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27224-5</ident>
     </rule-result>
-    <rule-result idref="userowner_shadow_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="userowner_shadow_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26947-2</ident>
     </rule-result>
-    <rule-result idref="groupowner_shadow_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="groupowner_shadow_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26967-0</ident>
     </rule-result>
-    <rule-result idref="perms_shadow_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="perms_shadow_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26992-8</ident>
     </rule-result>
-    <rule-result idref="userowner_group_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="userowner_group_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26822-7</ident>
     </rule-result>
-    <rule-result idref="groupowner_group_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="groupowner_group_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26930-8</ident>
     </rule-result>
-    <rule-result idref="perms_group_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="perms_group_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26954-8</ident>
     </rule-result>
-    <rule-result idref="userowner_gshadow_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="userowner_gshadow_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27026-4</ident>
     </rule-result>
-    <rule-result idref="groupowner_gshadow_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="groupowner_gshadow_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26975-3</ident>
     </rule-result>
-    <rule-result idref="perms_gshadow_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="perms_gshadow_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26951-4</ident>
     </rule-result>
-    <rule-result idref="userowner_passwd_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="userowner_passwd_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26953-0</ident>
     </rule-result>
-    <rule-result idref="groupowner_passwd_file" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="groupowner_passwd_file" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26856-5</ident>
     </rule-result>
-    <rule-result idref="file_permissions_etc_passwd" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="file_permissions_etc_passwd" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26868-0</ident>
     </rule-result>
-    <rule-result idref="file_permissions_library_dirs" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="file_permissions_library_dirs" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="file_ownership_library_dirs" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="file_ownership_library_dirs" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="file_permissions_binary_dirs" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="file_permissions_binary_dirs" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="file_ownership_binary_dirs" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="file_ownership_binary_dirs" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="sticky_world_writable_dirs" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="sticky_world_writable_dirs" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26840-9</ident>
     </rule-result>
-    <rule-result idref="world_writeable_files" time="2014-02-14T10:04:21" severity="medium" weight="1.000000">
+    <rule-result idref="world_writeable_files" time="2014-02-14T10:30:59" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26910-0</ident>
     </rule-result>
-    <rule-result idref="no_unpackaged_sgid_files" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="no_unpackaged_sgid_files" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26769-0</ident>
     </rule-result>
-    <rule-result idref="no_unpackaged_suid_files" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="no_unpackaged_suid_files" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26497-8</ident>
     </rule-result>
-    <rule-result idref="no_files_unowned_by_user" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="no_files_unowned_by_user" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27032-2</ident>
     </rule-result>
-    <rule-result idref="no_files_unowned_by_group" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="no_files_unowned_by_group" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26872-2</ident>
     </rule-result>
-    <rule-result idref="world_writable_files_system_ownership" time="2014-02-14T10:04:21" severity="low" weight="1.000000">
+    <rule-result idref="world_writable_files_system_ownership" time="2014-02-14T10:30:59" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26642-9</ident>
     </rule-result>
-    <rule-result idref="umask_for_daemons" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="umask_for_daemons" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>fail</result>
       <ident system="http://cce.mitre.org">CCE-27031-4</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -17999,200 +17999,200 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:1229" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="disable_users_coredumps" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_users_coredumps" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27033-0</ident>
     </rule-result>
-    <rule-result idref="disable_setuid_coredumps" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_setuid_coredumps" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27044-7</ident>
     </rule-result>
-    <rule-result idref="enable_execshield" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="enable_execshield" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27007-4</ident>
     </rule-result>
-    <rule-result idref="enable_randomize_va_space" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="enable_randomize_va_space" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26999-3</ident>
     </rule-result>
-    <rule-result idref="install_PAE_kernel_on_x86-32" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="install_PAE_kernel_on_x86-32" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27010-8</ident>
     </rule-result>
-    <rule-result idref="bios_enable_execution_restrictions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="bios_enable_execution_restrictions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="enable_dmesg_restriction" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="enable_dmesg_restriction" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27366-4</ident>
     </rule-result>
-    <rule-result idref="enable_selinux_bootloader" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="enable_selinux_bootloader" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26956-3</ident>
     </rule-result>
-    <rule-result idref="set_selinux_state" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_selinux_state" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26969-6</ident>
     </rule-result>
-    <rule-result idref="set_selinux_policy" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="set_selinux_policy" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26875-5</ident>
     </rule-result>
-    <rule-result idref="service_restorecond_enabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_restorecond_enabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26991-0</ident>
     </rule-result>
-    <rule-result idref="selinux_confinement_of_daemons" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="selinux_confinement_of_daemons" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="selinux_all_devicefiles_labeled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="selinux_all_devicefiles_labeled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26774-0</ident>
     </rule-result>
-    <rule-result idref="no_direct_root_logins" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="no_direct_root_logins" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="securetty_root_login_console_only" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="securetty_root_login_console_only" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26855-7</ident>
     </rule-result>
-    <rule-result idref="restrict_serial_port_logins" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="restrict_serial_port_logins" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27047-0</ident>
     </rule-result>
-    <rule-result idref="no_root_webbrowsing" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="no_root_webbrowsing" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="no_shelllogin_for_systemaccounts" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="no_shelllogin_for_systemaccounts" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26966-2</ident>
     </rule-result>
-    <rule-result idref="no_uidzero_except_root" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="no_uidzero_except_root" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26971-2</ident>
     </rule-result>
-    <rule-result idref="root_path_default" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="root_path_default" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="no_empty_passwords" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="no_empty_passwords" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27038-9</ident>
     </rule-result>
-    <rule-result idref="no_hashes_outside_shadow" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="no_hashes_outside_shadow" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26476-2</ident>
     </rule-result>
-    <rule-result idref="gid_passwd_group_same" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="gid_passwd_group_same" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="no_netrc_files" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="no_netrc_files" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27225-2</ident>
     </rule-result>
-    <rule-result idref="accounts_password_minlen_login_defs" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="accounts_password_minlen_login_defs" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27002-5</ident>
     </rule-result>
-    <rule-result idref="accounts_minimum_age_login_defs" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="accounts_minimum_age_login_defs" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27013-2</ident>
     </rule-result>
-    <rule-result idref="accounts_maximum_age_login_defs" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="accounts_maximum_age_login_defs" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26985-2</ident>
     </rule-result>
-    <rule-result idref="accounts_password_warn_age_login_defs" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="accounts_password_warn_age_login_defs" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26988-6</ident>
     </rule-result>
-    <rule-result idref="account_disable_post_pw_expiration" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="account_disable_post_pw_expiration" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27283-1</ident>
     </rule-result>
-    <rule-result idref="account_unique_name" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="account_unique_name" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27609-7</ident>
     </rule-result>
-    <rule-result idref="account_temp_expire_date" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="account_temp_expire_date" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="display_login_attempts" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="display_login_attempts" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27291-4</ident>
     </rule-result>
-    <rule-result idref="accounts_password_pam_cracklib_retry" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="accounts_password_pam_cracklib_retry" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27123-9</ident>
     </rule-result>
-    <rule-result idref="password_require_consecrepeat" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="password_require_consecrepeat" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27227-8</ident>
     </rule-result>
-    <rule-result idref="password_require_digits" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="password_require_digits" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26374-9</ident>
     </rule-result>
-    <rule-result idref="password_require_uppercases" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="password_require_uppercases" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26601-5</ident>
     </rule-result>
-    <rule-result idref="password_require_specials" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="password_require_specials" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26409-3</ident>
     </rule-result>
-    <rule-result idref="password_require_lowercases" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="password_require_lowercases" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26631-2</ident>
     </rule-result>
-    <rule-result idref="password_require_diffchars" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="password_require_diffchars" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26615-5</ident>
     </rule-result>
-    <rule-result idref="deny_password_attempts" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="deny_password_attempts" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26844-1</ident>
     </rule-result>
-    <rule-result idref="deny_password_attempts_unlock_time" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="deny_password_attempts_unlock_time" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27110-6</ident>
     </rule-result>
-    <rule-result idref="deny_password_attempts_fail_interval" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="deny_password_attempts_fail_interval" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27215-3</ident>
     </rule-result>
-    <rule-result idref="limiting_password_reuse" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="limiting_password_reuse" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26741-9</ident>
     </rule-result>
-    <rule-result idref="set_password_hashing_algorithm_systemauth" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_password_hashing_algorithm_systemauth" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26303-8</ident>
     </rule-result>
-    <rule-result idref="set_password_hashing_algorithm_logindefs" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_password_hashing_algorithm_logindefs" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27228-6</ident>
     </rule-result>
-    <rule-result idref="set_password_hashing_algorithm_libuserconf" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_password_hashing_algorithm_libuserconf" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27229-4</ident>
     </rule-result>
-    <rule-result idref="max_concurrent_login_sessions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="max_concurrent_login_sessions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27457-1</ident>
     </rule-result>
-    <rule-result idref="root_path_no_dot" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="root_path_no_dot" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26826-8</ident>
     </rule-result>
-    <rule-result idref="root_path_no_groupother_writable" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="root_path_no_groupother_writable" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26768-2</ident>
     </rule-result>
-    <rule-result idref="homedir_perms_no_groupwrite_worldread" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="homedir_perms_no_groupwrite_worldread" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26981-1</ident>
     </rule-result>
-    <rule-result idref="user_umask_bashrc" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="user_umask_bashrc" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>fail</result>
       <ident system="http://cce.mitre.org">CCE-26917-5</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -18200,7 +18200,7 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:742" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="user_umask_cshrc" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="user_umask_cshrc" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>fail</result>
       <ident system="http://cce.mitre.org">CCE-27034-8</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -18208,7 +18208,7 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:711" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="user_umask_profile" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="user_umask_profile" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>fail</result>
       <ident system="http://cce.mitre.org">CCE-26669-2</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -18216,7 +18216,7 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:1204" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="user_umask_logindefs" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="user_umask_logindefs" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>pass</result>
       <ident system="http://cce.mitre.org">CCE-26371-5</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -18224,301 +18224,301 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:1160" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="user_owner_grub_conf" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="user_owner_grub_conf" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26995-1</ident>
     </rule-result>
-    <rule-result idref="group_owner_grub_conf" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="group_owner_grub_conf" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27022-3</ident>
     </rule-result>
-    <rule-result idref="permissions_grub_conf" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="permissions_grub_conf" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26949-8</ident>
     </rule-result>
-    <rule-result idref="bootloader_password" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="bootloader_password" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26911-8</ident>
     </rule-result>
-    <rule-result idref="require_singleuser_auth" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="require_singleuser_auth" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27040-5</ident>
     </rule-result>
-    <rule-result idref="disable_ctrlaltdel_reboot" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="disable_ctrlaltdel_reboot" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="disable_interactive_boot" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="disable_interactive_boot" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27043-9</ident>
     </rule-result>
-    <rule-result idref="set_screensaver_inactivity_timeout" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_screensaver_inactivity_timeout" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26828-4</ident>
     </rule-result>
-    <rule-result idref="enable_screensaver_after_idle" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="enable_screensaver_after_idle" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26600-7</ident>
     </rule-result>
-    <rule-result idref="enable_screensaver_password_lock" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="enable_screensaver_password_lock" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26235-2</ident>
     </rule-result>
-    <rule-result idref="set_blank_screensaver" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="set_blank_screensaver" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26638-7</ident>
     </rule-result>
-    <rule-result idref="package_screen_installed" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="package_screen_installed" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26940-7</ident>
     </rule-result>
-    <rule-result idref="smartcard_auth" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="smartcard_auth" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="set_system_login_banner" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_system_login_banner" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26974-6</ident>
     </rule-result>
-    <rule-result idref="enable_gdm_login_banner" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="enable_gdm_login_banner" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27195-7</ident>
     </rule-result>
-    <rule-result idref="set_gdm_login_banner_text" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_gdm_login_banner_text" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27017-3</ident>
     </rule-result>
-    <rule-result idref="disable_user_list" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_user_list" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27230-2</ident>
     </rule-result>
-    <rule-result idref="network_disable_zeroconf" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="network_disable_zeroconf" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27151-0</ident>
     </rule-result>
-    <rule-result idref="network_sniffer_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="network_sniffer_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27152-8</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_default_send_redirects" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_default_send_redirects" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27001-7</ident>
     </rule-result>
-    <rule-result idref="sysctl_ipv4_all_send_redirects" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_ipv4_all_send_redirects" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27004-1</ident>
     </rule-result>
-    <rule-result idref="sysctl_ipv4_ip_forward" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_ipv4_ip_forward" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26866-4</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_all_accept_source_route" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_all_accept_source_route" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27037-1</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_all_accept_redirects" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_all_accept_redirects" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27027-2</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_all_secure_redirects" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_all_secure_redirects" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26854-0</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_all_log_martians" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_all_log_martians" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27066-0</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_default_accept_source_route" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_default_accept_source_route" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26983-7</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_default_accept_redirects" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_default_accept_redirects" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27015-7</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_default_secure_redirects" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_default_secure_redirects" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26831-8</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_icmp_echo_ignore_broadcasts" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_icmp_echo_ignore_broadcasts" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26883-9</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_icmp_ignore_bogus_error_responses" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_icmp_ignore_bogus_error_responses" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26993-6</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_tcp_syncookies" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_tcp_syncookies" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27053-8</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_all_rp_filter" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_all_rp_filter" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26979-5</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv4_conf_default_rp_filter" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv4_conf_default_rp_filter" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26915-9</ident>
     </rule-result>
-    <rule-result idref="wireless_disable_in_bios" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="wireless_disable_in_bios" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26878-9</ident>
     </rule-result>
-    <rule-result idref="deactivate_wireless_interfaces" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="deactivate_wireless_interfaces" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27057-9</ident>
     </rule-result>
-    <rule-result idref="service_bluetooth_disabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="service_bluetooth_disabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27081-9</ident>
     </rule-result>
-    <rule-result idref="kernel_module_bluetooth_disabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="kernel_module_bluetooth_disabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26763-3</ident>
     </rule-result>
-    <rule-result idref="kernel_module_ipv6_option_disabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="kernel_module_ipv6_option_disabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27153-6</ident>
     </rule-result>
-    <rule-result idref="network_ipv6_disable_interfaces" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="network_ipv6_disable_interfaces" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="network_ipv6_disable_rpc" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="network_ipv6_disable_rpc" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27232-8</ident>
     </rule-result>
-    <rule-result idref="sysctl_net_ipv6_conf_default_accept_ra" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sysctl_net_ipv6_conf_default_accept_ra" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27164-3</ident>
     </rule-result>
-    <rule-result idref="sysctl_ipv6_default_accept_redirects" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sysctl_ipv6_default_accept_redirects" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27166-8</ident>
     </rule-result>
-    <rule-result idref="network_ipv6_static_address" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="network_ipv6_static_address" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27233-6</ident>
     </rule-result>
-    <rule-result idref="network_ipv6_privacy_extensions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="network_ipv6_privacy_extensions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27154-4</ident>
     </rule-result>
-    <rule-result idref="network_ipv6_default_gateway" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="network_ipv6_default_gateway" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27234-4</ident>
     </rule-result>
-    <rule-result idref="service_ip6tables_enabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="service_ip6tables_enabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27006-6</ident>
     </rule-result>
-    <rule-result idref="set_ip6tables_default_rule" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_ip6tables_default_rule" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27317-7</ident>
     </rule-result>
-    <rule-result idref="service_iptables_enabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="service_iptables_enabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27018-1</ident>
     </rule-result>
-    <rule-result idref="set_iptables_default_rule" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_iptables_default_rule" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26444-0</ident>
     </rule-result>
-    <rule-result idref="set_iptables_default_rule_forward" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="set_iptables_default_rule_forward" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27186-6</ident>
     </rule-result>
-    <rule-result idref="kernel_module_dccp_disabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="kernel_module_dccp_disabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26448-1</ident>
     </rule-result>
-    <rule-result idref="kernel_module_sctp_disabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="kernel_module_sctp_disabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26410-1</ident>
     </rule-result>
-    <rule-result idref="kernel_module_rds_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="kernel_module_rds_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26239-4</ident>
     </rule-result>
-    <rule-result idref="kernel_module_tipc_disabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="kernel_module_tipc_disabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26696-5</ident>
     </rule-result>
-    <rule-result idref="install_openswan" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="install_openswan" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27626-1</ident>
     </rule-result>
-    <rule-result idref="package_rsyslog_installed" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="package_rsyslog_installed" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26809-4</ident>
     </rule-result>
-    <rule-result idref="service_rsyslog_enabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="service_rsyslog_enabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26807-8</ident>
     </rule-result>
-    <rule-result idref="userowner_rsyslog_files" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="userowner_rsyslog_files" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26812-8</ident>
     </rule-result>
-    <rule-result idref="groupowner_rsyslog_files" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="groupowner_rsyslog_files" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26821-9</ident>
     </rule-result>
-    <rule-result idref="rsyslog_file_permissions" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="rsyslog_file_permissions" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27190-8</ident>
     </rule-result>
-    <rule-result idref="rsyslog_send_messages_to_logserver" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="rsyslog_send_messages_to_logserver" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26801-1</ident>
     </rule-result>
-    <rule-result idref="rsyslog_accept_remote_messages_none" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="rsyslog_accept_remote_messages_none" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26803-7</ident>
     </rule-result>
-    <rule-result idref="rsyslog_accept_remote_messages_tcp" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="rsyslog_accept_remote_messages_tcp" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27235-1</ident>
     </rule-result>
-    <rule-result idref="rsyslog_accept_remote_messages_udp" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="rsyslog_accept_remote_messages_udp" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27236-9</ident>
     </rule-result>
-    <rule-result idref="ensure_logrotate_activated" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="ensure_logrotate_activated" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27014-0</ident>
     </rule-result>
-    <rule-result idref="configure_logwatch_hostlimit" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="configure_logwatch_hostlimit" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27197-3</ident>
     </rule-result>
-    <rule-result idref="configure_logwatch_splithosts" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="configure_logwatch_splithosts" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27069-4</ident>
     </rule-result>
-    <rule-result idref="disable_logwatch_for_logserver" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_logwatch_for_logserver" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="service_auditd_enabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="service_auditd_enabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27058-7</ident>
     </rule-result>
-    <rule-result idref="enable_auditd_bootloader" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="enable_auditd_bootloader" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26785-6</ident>
     </rule-result>
-    <rule-result idref="configure_auditd_num_logs" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="configure_auditd_num_logs" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-export export-name="oval:ssg:var:2270" value-id="var_auditd_num_logs"/>
         <check-content-ref name="oval:ssg:def:1215" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="configure_auditd_max_log_file" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="configure_auditd_max_log_file" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-export export-name="oval:ssg:var:2258" value-id="var_auditd_max_log_file"/>
         <check-content-ref name="oval:ssg:def:628" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="configure_auditd_max_log_file_action" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="configure_auditd_max_log_file_action" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>pass</result>
       <ident system="http://cce.mitre.org">CCE-27237-7</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -18526,7 +18526,7 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:1108" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="auditd_data_retention_space_left_action" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="auditd_data_retention_space_left_action" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>pass</result>
       <ident system="http://cce.mitre.org">CCE-27238-5</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -18534,7 +18534,7 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:156" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="auditd_data_retention_admin_space_left_action" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="auditd_data_retention_admin_space_left_action" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>fail</result>
       <ident system="http://cce.mitre.org">CCE-27239-3</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -18542,7 +18542,7 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:419" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="auditd_data_retention_action_mail_acct" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="auditd_data_retention_action_mail_acct" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>pass</result>
       <ident system="http://cce.mitre.org">CCE-27241-9</ident>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
@@ -18550,728 +18550,728 @@ windows, but still within IAVM-dictated timeframes, this is not a finding.
         <check-content-ref name="oval:ssg:def:393" href="ssg-rhel6-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="configure_auditd_audispd" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="configure_auditd_audispd" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="audit_rules_time_adjtimex" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_time_adjtimex" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26242-8</ident>
     </rule-result>
-    <rule-result idref="audit_rules_time_settimeofday" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_time_settimeofday" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27203-9</ident>
     </rule-result>
-    <rule-result idref="audit_rules_time_stime" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_time_stime" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27169-2</ident>
     </rule-result>
-    <rule-result idref="audit_rules_time_clock_settime" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_time_clock_settime" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27170-0</ident>
     </rule-result>
-    <rule-result idref="audit_rules_time_watch_localtime" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_time_watch_localtime" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27172-6</ident>
     </rule-result>
-    <rule-result idref="audit_account_changes" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_account_changes" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26664-3</ident>
     </rule-result>
-    <rule-result idref="audit_network_modifications" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_network_modifications" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26648-6</ident>
     </rule-result>
-    <rule-result idref="audit_logs_permissions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_logs_permissions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27243-5</ident>
     </rule-result>
-    <rule-result idref="audit_logs_rootowner" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_logs_rootowner" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27244-3</ident>
     </rule-result>
-    <rule-result idref="audit_mac_changes" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_mac_changes" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26657-7</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_chmod" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_chmod" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26280-8</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_chown" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_chown" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27173-4</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_fchmod" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_fchmod" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27174-2</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_fchmodat" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_fchmodat" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27175-9</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_fchown" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_fchown" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27177-5</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_fchownat" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_fchownat" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27178-3</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_fremovexattr" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_fremovexattr" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27179-1</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_fsetxattr" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_fsetxattr" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27180-9</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_lchown" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_lchown" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27181-7</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_lremovexattr" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_lremovexattr" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27182-5</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_lsetxattr" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_lsetxattr" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27183-3</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_removexattr" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_removexattr" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27184-1</ident>
     </rule-result>
-    <rule-result idref="audit_rules_dac_modification_setxattr" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_rules_dac_modification_setxattr" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27185-8</ident>
     </rule-result>
-    <rule-result idref="audit_manual_logon_edits" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_manual_logon_edits" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26691-6</ident>
     </rule-result>
-    <rule-result idref="audit_manual_session_edits" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_manual_session_edits" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26610-6</ident>
     </rule-result>
-    <rule-result idref="audit_file_access" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_file_access" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26712-0</ident>
     </rule-result>
-    <rule-result idref="audit_privileged_commands" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_privileged_commands" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26457-2</ident>
     </rule-result>
-    <rule-result idref="audit_media_exports" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_media_exports" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26573-6</ident>
     </rule-result>
-    <rule-result idref="audit_file_deletions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_file_deletions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26651-0</ident>
     </rule-result>
-    <rule-result idref="audit_sysadmin_actions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_sysadmin_actions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26662-7</ident>
     </rule-result>
-    <rule-result idref="audit_kernel_module_loading" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_kernel_module_loading" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26611-4</ident>
     </rule-result>
-    <rule-result idref="audit_config_immutable" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="audit_config_immutable" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26612-2</ident>
     </rule-result>
-    <rule-result idref="disable_xinetd" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="disable_xinetd" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27046-2</ident>
     </rule-result>
-    <rule-result idref="uninstall_xinetd" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="uninstall_xinetd" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27005-8</ident>
     </rule-result>
-    <rule-result idref="disable_telnet_service" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="disable_telnet_service" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26836-7</ident>
     </rule-result>
-    <rule-result idref="uninstall_telnet_server" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="uninstall_telnet_server" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27073-6</ident>
     </rule-result>
-    <rule-result idref="uninstall_rsh-server" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="uninstall_rsh-server" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27062-9</ident>
     </rule-result>
-    <rule-result idref="disable_rexec" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="disable_rexec" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27208-8</ident>
     </rule-result>
-    <rule-result idref="disable_rsh" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="disable_rsh" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26994-4</ident>
     </rule-result>
-    <rule-result idref="disable_rlogin" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="disable_rlogin" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26865-6</ident>
     </rule-result>
-    <rule-result idref="no_rsh_trust_files" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="no_rsh_trust_files" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27270-8</ident>
     </rule-result>
-    <rule-result idref="uninstall_ypserv" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="uninstall_ypserv" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27079-3</ident>
     </rule-result>
-    <rule-result idref="disable_ypbind" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="disable_ypbind" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26894-6</ident>
     </rule-result>
-    <rule-result idref="disable_tftp" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="disable_tftp" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27055-3</ident>
     </rule-result>
-    <rule-result idref="uninstall_tftp-server" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="uninstall_tftp-server" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26946-4</ident>
     </rule-result>
-    <rule-result idref="tftpd_uses_secure_mode" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="tftpd_uses_secure_mode" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27272-4</ident>
     </rule-result>
-    <rule-result idref="service_abrtd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_abrtd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27247-6</ident>
     </rule-result>
-    <rule-result idref="service_acpid_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_acpid_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27061-1</ident>
     </rule-result>
-    <rule-result idref="service_certmonger_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_certmonger_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27267-4</ident>
     </rule-result>
-    <rule-result idref="service_cgconfig_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_cgconfig_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27250-0</ident>
     </rule-result>
-    <rule-result idref="service_cgred_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_cgred_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27252-6</ident>
     </rule-result>
-    <rule-result idref="service_cpuspeed_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_cpuspeed_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26973-8</ident>
     </rule-result>
-    <rule-result idref="service_haldaemon_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_haldaemon_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27086-8</ident>
     </rule-result>
-    <rule-result idref="service_irqbalance_enabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_irqbalance_enabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26990-2</ident>
     </rule-result>
-    <rule-result idref="service_kdump_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_kdump_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26850-8</ident>
     </rule-result>
-    <rule-result idref="service_mdmonitor_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_mdmonitor_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27193-2</ident>
     </rule-result>
-    <rule-result idref="service_messagebus_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_messagebus_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26913-4</ident>
     </rule-result>
-    <rule-result idref="service_netconsole_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_netconsole_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27254-2</ident>
     </rule-result>
-    <rule-result idref="service_ntpdate_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_ntpdate_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27256-7</ident>
     </rule-result>
-    <rule-result idref="service_oddjobd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_oddjobd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27257-5</ident>
     </rule-result>
-    <rule-result idref="service_portreserve_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_portreserve_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27258-3</ident>
     </rule-result>
-    <rule-result idref="service_psacct_enabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_psacct_enabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27259-1</ident>
     </rule-result>
-    <rule-result idref="service_qpidd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_qpidd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26928-2</ident>
     </rule-result>
-    <rule-result idref="service_quota_nld_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_quota_nld_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27260-9</ident>
     </rule-result>
-    <rule-result idref="service_rdisc_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_rdisc_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27261-7</ident>
     </rule-result>
-    <rule-result idref="service_rhnsd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_rhnsd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26846-6</ident>
     </rule-result>
-    <rule-result idref="service_rhsmcertd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_rhsmcertd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27262-5</ident>
     </rule-result>
-    <rule-result idref="service_saslauthd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_saslauthd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27263-3</ident>
     </rule-result>
-    <rule-result idref="service_smartd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_smartd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26853-2</ident>
     </rule-result>
-    <rule-result idref="service_sysstat_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_sysstat_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27265-8</ident>
     </rule-result>
-    <rule-result idref="service_crond_enabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="service_crond_enabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27070-2</ident>
     </rule-result>
-    <rule-result idref="disable_anacron" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_anacron" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="service_atd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_atd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27249-2</ident>
     </rule-result>
-    <rule-result idref="ssh_server_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="ssh_server_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27054-6</ident>
     </rule-result>
-    <rule-result idref="ssh_server_iptables_exception" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="ssh_server_iptables_exception" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27060-3</ident>
     </rule-result>
-    <rule-result idref="sshd_allow_only_protocol2" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="sshd_allow_only_protocol2" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27072-8</ident>
     </rule-result>
-    <rule-result idref="sshd_limit_user_access" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sshd_limit_user_access" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="sshd_set_idle_timeout" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sshd_set_idle_timeout" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26919-1</ident>
     </rule-result>
-    <rule-result idref="sshd_set_keepalive" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sshd_set_keepalive" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26282-4</ident>
     </rule-result>
-    <rule-result idref="sshd_disable_rhosts" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sshd_disable_rhosts" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27124-7</ident>
     </rule-result>
-    <rule-result idref="disable_host_auth" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="disable_host_auth" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27091-8</ident>
     </rule-result>
-    <rule-result idref="sshd_disable_root_login" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sshd_disable_root_login" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27100-7</ident>
     </rule-result>
-    <rule-result idref="sshd_disable_empty_passwords" time="2014-02-14T10:04:22" severity="high" weight="1.000000">
+    <rule-result idref="sshd_disable_empty_passwords" time="2014-02-14T10:31:01" severity="high" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26887-0</ident>
     </rule-result>
-    <rule-result idref="sshd_enable_warning_banner" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sshd_enable_warning_banner" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27112-2</ident>
     </rule-result>
-    <rule-result idref="sshd_do_not_permit_user_env" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="sshd_do_not_permit_user_env" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27201-3</ident>
     </rule-result>
-    <rule-result idref="sshd_use_approved_ciphers" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="sshd_use_approved_ciphers" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26555-3</ident>
     </rule-result>
-    <rule-result idref="disable_xwindows_with_runlevel" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_xwindows_with_runlevel" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27119-7</ident>
     </rule-result>
-    <rule-result idref="packagegroup_xwindows_remove" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="packagegroup_xwindows_remove" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27198-1</ident>
     </rule-result>
-    <rule-result idref="disable_avahi" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_avahi" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27087-6</ident>
     </rule-result>
-    <rule-result idref="avahi_ip_only" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="avahi_ip_only" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="avahi_check_ttl" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="avahi_check_ttl" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="avahi_prevent_port_sharing" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="avahi_prevent_port_sharing" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="avahi_disable_publishing" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="avahi_disable_publishing" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="avahi_restrict_published_information" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="avahi_restrict_published_information" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="service_cups_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_cups_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26899-5</ident>
     </rule-result>
-    <rule-result idref="cups_disable_browsing" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="cups_disable_browsing" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27108-0</ident>
     </rule-result>
-    <rule-result idref="cups_disable_printserver" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="cups_disable_printserver" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27107-2</ident>
     </rule-result>
-    <rule-result idref="disable_dhcp_server" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="disable_dhcp_server" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27074-4</ident>
     </rule-result>
-    <rule-result idref="uninstall_dhcp_server" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="uninstall_dhcp_server" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27120-5</ident>
     </rule-result>
-    <rule-result idref="dhcp_server_disable_ddns" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dhcp_server_disable_ddns" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27049-6</ident>
     </rule-result>
-    <rule-result idref="dhcp_server_deny_decline" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dhcp_server_deny_decline" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27106-4</ident>
     </rule-result>
-    <rule-result idref="dhcp_server_deny_bootp" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dhcp_server_deny_bootp" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27077-7</ident>
     </rule-result>
-    <rule-result idref="dhcp_server_configure_logging" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dhcp_server_configure_logging" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26898-7</ident>
     </rule-result>
-    <rule-result idref="disable_dhcp_client" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_dhcp_client" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27021-5</ident>
     </rule-result>
-    <rule-result idref="service_ntpd_enabled" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="service_ntpd_enabled" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27093-4</ident>
     </rule-result>
-    <rule-result idref="ntpd_specify_remote_server" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="ntpd_specify_remote_server" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27098-3</ident>
     </rule-result>
-    <rule-result idref="ntpd_specify_multiple_servers" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="ntpd_specify_multiple_servers" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="service_postfix_enabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_postfix_enabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26325-1</ident>
     </rule-result>
-    <rule-result idref="package_sendmail_removed" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="package_sendmail_removed" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27515-6</ident>
     </rule-result>
-    <rule-result idref="postfix_network_listening" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="postfix_network_listening" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26780-7</ident>
     </rule-result>
-    <rule-result idref="postfix_server_banner" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="postfix_server_banner" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="ldap_client_start_tls" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="ldap_client_start_tls" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26690-8</ident>
     </rule-result>
-    <rule-result idref="ldap_client_tls_cacertpath" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="ldap_client_tls_cacertpath" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27189-0</ident>
     </rule-result>
-    <rule-result idref="package_openldap-servers_removed" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="package_openldap-servers_removed" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26858-1</ident>
     </rule-result>
-    <rule-result idref="service_nfslock_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_nfslock_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27104-9</ident>
     </rule-result>
-    <rule-result idref="service_rpcgssd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_rpcgssd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26864-9</ident>
     </rule-result>
-    <rule-result idref="service_rpcidmapd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_rpcidmapd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26870-6</ident>
     </rule-result>
-    <rule-result idref="service_netfs_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_netfs_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27137-9</ident>
     </rule-result>
-    <rule-result idref="nfs_fixed_lockd_tcp_port" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="nfs_fixed_lockd_tcp_port" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27149-4</ident>
     </rule-result>
-    <rule-result idref="nfs_fixed_lockd_udp_port" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="nfs_fixed_lockd_udp_port" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27063-7</ident>
     </rule-result>
-    <rule-result idref="nfs_fixed_statd_port" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="nfs_fixed_statd_port" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26889-6</ident>
     </rule-result>
-    <rule-result idref="nfs_fixed_mountd_port" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="nfs_fixed_mountd_port" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27114-8</ident>
     </rule-result>
-    <rule-result idref="nfs_no_anonymous" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="nfs_no_anonymous" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="service_nfs_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_nfs_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27199-9</ident>
     </rule-result>
-    <rule-result idref="service_rpcsvcgssd_disabled" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="service_rpcsvcgssd_disabled" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27122-1</ident>
     </rule-result>
-    <rule-result idref="use_nodev_option_on_nfs_mounts" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="use_nodev_option_on_nfs_mounts" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27090-0</ident>
     </rule-result>
-    <rule-result idref="use_nosuid_option_on_nfs_mounts" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="use_nosuid_option_on_nfs_mounts" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26972-0</ident>
     </rule-result>
-    <rule-result idref="use_root_squashing_all_exports" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="use_root_squashing_all_exports" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27138-7</ident>
     </rule-result>
-    <rule-result idref="restrict_nfs_clients_to_privileged_ports" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="restrict_nfs_clients_to_privileged_ports" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27121-3</ident>
     </rule-result>
-    <rule-result idref="no_insecure_locks_exports" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="no_insecure_locks_exports" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27167-6</ident>
     </rule-result>
-    <rule-result idref="disable_dns_server" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_dns_server" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26873-0</ident>
     </rule-result>
-    <rule-result idref="uninstall_bind" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="uninstall_bind" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27030-6</ident>
     </rule-result>
-    <rule-result idref="dns_server_disable_zone_transfers" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dns_server_disable_zone_transfers" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="dns_server_authenticate_zone_transfers" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dns_server_authenticate_zone_transfers" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="dns_server_disable_dynamic_updates" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dns_server_disable_dynamic_updates" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27105-6</ident>
     </rule-result>
-    <rule-result idref="disable_vsftpd" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_vsftpd" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26948-0</ident>
     </rule-result>
-    <rule-result idref="uninstall_vsftpd" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="uninstall_vsftpd" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26687-4</ident>
     </rule-result>
-    <rule-result idref="install_vsftpd" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="install_vsftpd" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27187-4</ident>
     </rule-result>
-    <rule-result idref="ftp_log_transactions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="ftp_log_transactions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27142-9</ident>
     </rule-result>
-    <rule-result idref="ftp_present_banner" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="ftp_present_banner" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27145-2</ident>
     </rule-result>
-    <rule-result idref="ftp_restrict_to_anon" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="ftp_restrict_to_anon" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27115-5</ident>
     </rule-result>
-    <rule-result idref="ftp_disable_uploads" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="ftp_disable_uploads" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27117-1</ident>
     </rule-result>
-    <rule-result idref="ftp_home_partition" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="ftp_home_partition" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="disable_httpd" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_httpd" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27075-1</ident>
     </rule-result>
-    <rule-result idref="uninstall_httpd" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="uninstall_httpd" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27133-8</ident>
     </rule-result>
-    <rule-result idref="httpd_servertokens_prod" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_servertokens_prod" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_serversignature_off" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_serversignature_off" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_digest_authentication" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_digest_authentication" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_mod_rewrite" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_mod_rewrite" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_ldap_support" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_ldap_support" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_server_side_includes" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_server_side_includes" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_mime_magic" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_mime_magic" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_webdav" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_webdav" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_server_activity_status" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_server_activity_status" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_server_configuration_display" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_server_configuration_display" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_url_correction" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_url_correction" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_proxy_support" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_proxy_support" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_cache_support" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_cache_support" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_cgi_support" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_cgi_support" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_restrict_root_directory" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_restrict_root_directory" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_restrict_web_directory" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_restrict_web_directory" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_restrict_critical_directories" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_restrict_critical_directories" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_limit_available_methods" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_limit_available_methods" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_install_mod_ssl" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_install_mod_ssl" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27403-5</ident>
     </rule-result>
-    <rule-result idref="httpd_install_mod_security" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_install_mod_security" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27525-5</ident>
     </rule-result>
-    <rule-result idref="httpd_logs_permissions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_logs_permissions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27150-2</ident>
     </rule-result>
-    <rule-result idref="httpd_conf_dir_permissions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_conf_dir_permissions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="httpd_conf_files_permissions" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="httpd_conf_files_permissions" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="disable_dovecot" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_dovecot" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26922-5</ident>
     </rule-result>
-    <rule-result idref="uninstall_dovecot" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="uninstall_dovecot" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27039-7</ident>
     </rule-result>
-    <rule-result idref="dovecot_enable_ssl" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dovecot_enable_ssl" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27571-9</ident>
     </rule-result>
-    <rule-result idref="dovecot_configure_ssl_cert" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dovecot_configure_ssl_cert" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27459-7</ident>
     </rule-result>
-    <rule-result idref="dovecot_configure_ssl_key" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dovecot_configure_ssl_key" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27633-7</ident>
     </rule-result>
-    <rule-result idref="dovecot_disable_plaintext_auth" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="dovecot_disable_plaintext_auth" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27144-5</ident>
     </rule-result>
-    <rule-result idref="disable_smb_server" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_smb_server" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27143-7</ident>
     </rule-result>
-    <rule-result idref="smb_server_disable_root" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="smb_server_disable_root" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="require_smb_client_signing" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="require_smb_client_signing" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26328-5</ident>
     </rule-result>
-    <rule-result idref="require_smb_client_signing_mount.cifs" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="require_smb_client_signing_mount.cifs" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26792-2</ident>
     </rule-result>
-    <rule-result idref="disable_squid" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_squid" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-27146-0</ident>
     </rule-result>
-    <rule-result idref="uninstall_squid" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="uninstall_squid" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26977-9</ident>
     </rule-result>
-    <rule-result idref="disable_snmpd" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="disable_snmpd" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26906-8</ident>
     </rule-result>
-    <rule-result idref="uninstall_net-snmp" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="uninstall_net-snmp" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
       <ident system="http://cce.mitre.org">CCE-26332-7</ident>
     </rule-result>
-    <rule-result idref="snmpd_use_newer_protocol" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="snmpd_use_newer_protocol" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="snmpd_not_default_password" time="2014-02-14T10:04:22" severity="medium" weight="1.000000">
+    <rule-result idref="snmpd_not_default_password" time="2014-02-14T10:31:01" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="met_inherently_generic" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="met_inherently_generic" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="met_inherently_auditing" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="met_inherently_auditing" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="met_inherently_nonselected" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="met_inherently_nonselected" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="unmet_nonfinding_nonselected_scope" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="unmet_nonfinding_nonselected_scope" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="unmet_finding_nonselected" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="unmet_finding_nonselected" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="unmet_nonfinding_scope" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="unmet_nonfinding_scope" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="update_process" time="2014-02-14T10:04:22" severity="low" weight="1.000000">
+    <rule-result idref="update_process" time="2014-02-14T10:31:01" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
     <score system="urn:xccdf:scoring:default" maximum="100.000000">36.111111</score>
