@@ -18,6 +18,11 @@
         - httpd
         - php
         - php-common
+        - php-xml
+        - php-mysql
+        - php-gd
+        - php-tidy
+        - php-pear
 
    - name: copy firewall template
      copy: src=templates/etc/sysconfig/iptables dest=/etc/sysconfig/iptables owner=root group=root mode=0600
